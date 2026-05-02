@@ -46,31 +46,31 @@ DT_MODULE_INTROSPECTION(2, dt_iop_colorchecker_params_t)
 
 static const int colorchecker_patches = 24;
 static const float colorchecker_Lab[] =
-{ // from argyll ColorChecker.cie
- 37.99,   13.56,  14.06, // dark skin
- 65.71,   18.13,  17.81, // light skin
- 49.93,   -4.88, -21.93, // blue sky
- 43.14,  -13.10,  21.91, // foliage
- 55.11,    8.84, -25.40, // blue flower
- 70.72,  -33.40, -0.20 , // bluish green
- 62.66,   36.07,  57.10, // orange
- 40.02,   10.41, -45.96, // purple red
- 51.12,   48.24,  16.25, // moderate red
- 30.33,   22.98, -21.59, // purple
- 72.53,  -23.71,  57.26, // yellow green
- 71.94,  19.36 ,  67.86, // orange yellow
- 28.78,  14.18 , -50.30, // blue
- 55.26,  -38.34,  31.37, // green
- 42.10,  53.38 ,  28.19, // red
- 81.73,  4.04  ,  79.82, // yellow
- 51.94,  49.99 , -14.57, // magenta
- 51.04,  -28.63, -28.64, // cyan
- 96.54,  -0.43 ,  1.19 , // white
- 81.26,  -0.64 , -0.34 , // neutral 8
- 66.77,  -0.73 , -0.50 , // neutral 65
- 50.87,  -0.15 , -0.27 , // neutral 5
- 35.66,  -0.42 , -1.23 , // neutral 35
- 20.46,  -0.08 , -0.97   // black
+{ // from 东莞大凡光学 DF-RCC-01240409 D50
+ 39.22,  14.24,  13.46, // 1 dark skin
+ 66.01,  19.95,  16.55, // 2 light skin
+ 53.16,  -3.79, -24.75, // 3 blue sky
+ 45.82, -13.58,  21.66, // 4 foliage
+ 58.55,  11.35, -27.08, // 5 blue flower
+ 75.08, -31.60,  -1.81, // 6 bluish green
+ 66.58,  37.13,  57.97, // 7 orange
+ 45.11,  11.40, -46.21, // 8 purplish blue
+ 52.47,  49.65,  14.69, // 9 moderate red
+ 33.22,  23.53, -23.13, // 10 purple
+ 76.87, -23.49,  59.47, // 11 yellow green
+ 75.13,  18.28,  70.63, // 12 orange yellow
+ 30.03,  16.23, -52.36, // 13 blue
+ 58.29, -40.80,  31.29, // 14 green
+ 43.98,  53.69,  27.86, // 15 red
+ 85.37,   1.58,  79.59, // 16 yellow
+ 53.84,  52.99, -15.68, // 17 magenta
+ 53.26, -30.68, -29.74, // 18 cyan
+ 99.07,  -1.10,   0.88, // 19 white
+ 85.39,  -0.69,  -1.82, // 20 N8
+ 71.19,  -0.77,  -1.26, // 21 N6.5
+ 52.90,   0.32,  -1.32, // 22 N5
+ 38.85,  -0.82,  -1.57, // 23 N3.5
+ 19.04,  -0.05,   1.99, // 24 N2
 };
 
 // we came to the conclusion that more than 7x7 patches will not be
